@@ -1,0 +1,116 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+    
+}
+.container{
+  width: 1173px; 
+  margin-right: auto; 
+  margin-left: auto; 
+}
+
+
+header{
+  background-color:#08546C; ;
+}
+ul{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+
+.navbar{
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+
+
+}
+
+.menus{
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+
+.menus li a{
+  color: #A1B5BB;
+}
+
+
+
+#herro{
+  background-color: #08546C;
+}
+.btn{
+  width: 140px;
+  height: 58px;
+  top: 45px;
+  left: 1406px;
+  border-radius: 25px;
+  background-color: #145E76;
+  color:#FFFFFF;
+}
+
+
+.musa{
+  display:flex;
+  align-items:center ;
+  justify-content: center;
+  font-family: cursive;
+  color: #FFFFFF;
+  width: 195px;
+  height: 65px;
+  top: 253px;
+  left: 375px;
+  border-radius: 30px;
+  background-color: #094556;
+  margin-bottom: 40px;
+  
+  
+}
+
+
+.herro-content{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.herro-infos h1{
+  padding-bottom:30px;
+  color: #FFFFFF;
+  font-size: 64px;
+}
+
+.desc{
+  width: 511;
+   background-color: #FFFFFF;
+}
+
+
+.btns{
+  width:137px ;
+  height: 61px;
+  top: 736px;
+  left: 376px;
+  border-radius: 25px;
+  
+  
+}
+.btn1{
+  background-color:#FFA63A;
+  border-radius: 25px;
+}
+.btn2{
+  padding-left: 25px;
+  background-color: transparent;
+}
+.btn2 :hover{
+background-color: #FFA63A;
+}
